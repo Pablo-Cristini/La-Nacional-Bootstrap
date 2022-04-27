@@ -43,6 +43,10 @@ h1:hover {
 .show>.nav-pills .nav-link{
     background: var(--rojo) !important
 }
+.nav {
+    border: solid 1px;
+    border-radius: 5px;
+}
 .navegador {
     margin-bottom: 45px;
 }
