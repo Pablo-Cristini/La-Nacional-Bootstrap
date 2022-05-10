@@ -1,6 +1,18 @@
+/*MAPS*/
+/*EXTEND*/
 .titulo {
   display: flex;
-  justify-content: center;
+  justify-content: center; }
+
+.header .menu-navegacion {
+  display: flex;
+  justify-content: space-evenly; }
+
+.footer, .footer .footer-content .social-media {
+  display: flex;
+  justify-content: space-around; }
+
+.titulo {
   font-size: 45px;
   font-family: 'Diplomata SC', cursive;
   color: #B61616;
@@ -8,16 +20,15 @@
   margin: 15px; }
 
 .sub-titulo {
-  text-align: center;
   font-size: 20px;
   margin: 0px auto 25px auto;
-  justify-content: center; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .header {
   margin-bottom: 15px; }
   .header .menu-navegacion {
-    display: flex;
-    justify-content: space-evenly;
     background-color: #3B3838;
     width: 100%;
     border-radius: 3px;
@@ -48,25 +59,19 @@
   font-size: 35px;
   text-align: center; }
 
-.footer {
+.footer .footer-content {
+  margin-top: 30px;
   display: flex;
-  justify-content: space-around; }
-  .footer .footer-content {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 15px; }
-    .footer .footer-content .social-media {
-      display: flex;
-      justify-content: space-around; }
-      .footer .footer-content .social-media .textDecoration {
-        text-decoration: none;
-        color: #B61616; }
-        .footer .footer-content .social-media .textDecoration h3 {
-          padding: 10px;
-          font-size: 30px;
-          cursor: pointer;
-          background-color: #ffff; }
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 15px; }
+  .footer .footer-content .social-media .textDecoration {
+    text-decoration: none;
+    color: #B61616; }
+    .footer .footer-content .social-media .textDecoration h3 {
+      padding: 10px;
+      font-size: 30px;
+      cursor: pointer;
+      background-color: #ffff; }

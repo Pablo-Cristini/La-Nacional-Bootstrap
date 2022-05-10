@@ -1,0 +1,7 @@
+. Agregue Maps tanto de los tamaños de las fuentes así como de colores, las variables de
+colores ya las estaba utilizaba pero no las aplicaba en mi archivo scss con el código de
+map-get.
+. Agregue las etiquetas extend para modificar los posicionamientos de los elementos en mi
+html.
+.Agregue la herramienta de Mixin con flexbox con parametros de justify content y aling items
+para modificar la posicion del subtitulo.

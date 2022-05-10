@@ -1,4 +1,35 @@
-$color-principal: #B61616;
-$color-secundario: #100F0F;
-$color-nav: #3B3838;
-$color-fuente: #ffff;
+/*MAPS*/
+$tamanio-fuente: (
+    titulo: 45px,
+    subtitulo:20px,
+    textos:30px,
+    textoSecundario:35px,
+);
+
+
+$colores: (
+    color-principal: #B61616,
+    color-secundario: #100F0F,
+    color-nav: #3B3838,
+    color-fuente: #ffff,
+);
+
+/*EXTEND*/
+%flex-center{
+    display: flex;
+    justify-content: center;
+};
+%flex-evenly{
+    display: flex;
+    justify-content: space-evenly;
+};
+%flex-around{
+    display: flex;
+    justify-content: space-around;
+};  
+
+@mixin flexbox ($justify,$aling){
+    display: flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
